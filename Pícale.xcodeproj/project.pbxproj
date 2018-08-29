@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A03C2BF81F65F96A00F9F26F /* SonidoConteo5ms.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03C2BF71F65F96A00F9F26F /* SonidoConteo5ms.mp3 */; };
+		A03C2BFA1F65FF6700F9F26F /* SonidoConteoFinal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03C2BF91F65FF6700F9F26F /* SonidoConteoFinal.mp3 */; };
+		A076A7A91F68C3640011F076 /* SonidoPícale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A076A7A81F68C3640011F076 /* SonidoPícale.mp3 */; };
+		A08B794E1F69F711002956D8 /* SonidoPicaleFinal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A08B794D1F69F711002956D8 /* SonidoPicaleFinal.mp3 */; };
+		A08B79521F69FDD7002956D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08B79511F69FDD7002956D8 /* Assets.xcassets */; };
+		A0C7828F1F6D9F2F001B1362 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C7828D1F6D9F2F001B1362 /* Main.storyboard */; };
+		A0CE7F9A1F64EF280049A5EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE7F991F64EF280049A5EF /* AppDelegate.swift */; };
+		A0CE7F9C1F64EF280049A5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE7F9B1F64EF280049A5EF /* ViewController.swift */; };
+		A0CE7FAF1F64EF280049A5EF /* Pi_caleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE7FAE1F64EF280049A5EF /* Pi_caleTests.swift */; };
+		A0CE7FBA1F64EF280049A5EF /* Pi_caleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE7FB91F64EF280049A5EF /* Pi_caleUITests.swift */; };
+		A0CE7FC81F65254E0049A5EF /* PicaleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE7FC71F65254D0049A5EF /* PicaleButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0CE7FAB1F64EF280049A5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CE7F8E1F64EF280049A5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CE7F951F64EF280049A5EF;
+			remoteInfo = "Pícale";
+		};
+		A0CE7FB61F64EF280049A5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CE7F8E1F64EF280049A5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CE7F951F64EF280049A5EF;
+			remoteInfo = "Pícale";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A03C2BF71F65F96A00F9F26F /* SonidoConteo5ms.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SonidoConteo5ms.mp3; sourceTree = "<group>"; };
+		A03C2BF91F65FF6700F9F26F /* SonidoConteoFinal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SonidoConteoFinal.mp3; sourceTree = "<group>"; };
+		A076A7A81F68C3640011F076 /* SonidoPícale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SonidoPícale.mp3"; sourceTree = "<group>"; };
+		A08B794D1F69F711002956D8 /* SonidoPicaleFinal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SonidoPicaleFinal.mp3; sourceTree = "<group>"; };
+		A08B79511F69FDD7002956D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0C7828E1F6D9F2F001B1362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0CE7F961F64EF280049A5EF /* Pícale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pícale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CE7F991F64EF280049A5EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0CE7F9B1F64EF280049A5EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0CE7FA51F64EF280049A5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CE7FAA1F64EF280049A5EF /* PícaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PícaleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CE7FAE1F64EF280049A5EF /* Pi_caleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pi_caleTests.swift; sourceTree = "<group>"; };
+		A0CE7FB01F64EF280049A5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CE7FB51F64EF280049A5EF /* PícaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PícaleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CE7FB91F64EF280049A5EF /* Pi_caleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pi_caleUITests.swift; sourceTree = "<group>"; };
+		A0CE7FBB1F64EF280049A5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CE7FC71F65254D0049A5EF /* PicaleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicaleButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CE7F931F64EF280049A5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE7FA71F64EF280049A5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE7FB21F64EF280049A5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0CE7F8D1F64EF280049A5EF = {
+			isa = PBXGroup;
+			children = (
+				A0CE7F981F64EF280049A5EF /* Pícale */,
+				A0CE7FAD1F64EF280049A5EF /* PícaleTests */,
+				A0CE7FB81F64EF280049A5EF /* PícaleUITests */,
+				A0CE7F971F64EF280049A5EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CE7F971F64EF280049A5EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE7F961F64EF280049A5EF /* Pícale.app */,
+				A0CE7FAA1F64EF280049A5EF /* PícaleTests.xctest */,
+				A0CE7FB51F64EF280049A5EF /* PícaleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0CE7F981F64EF280049A5EF /* Pícale */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE7F991F64EF280049A5EF /* AppDelegate.swift */,
+				A0CE7F9B1F64EF280049A5EF /* ViewController.swift */,
+				A0CE7FC71F65254D0049A5EF /* PicaleButton.swift */,
+				A0C7828D1F6D9F2F001B1362 /* Main.storyboard */,
+				A08B79511F69FDD7002956D8 /* Assets.xcassets */,
+				A03C2BF71F65F96A00F9F26F /* SonidoConteo5ms.mp3 */,
+				A03C2BF91F65FF6700F9F26F /* SonidoConteoFinal.mp3 */,
+				A08B794D1F69F711002956D8 /* SonidoPicaleFinal.mp3 */,
+				A076A7A81F68C3640011F076 /* SonidoPícale.mp3 */,
+				A0CE7FA51F64EF280049A5EF /* Info.plist */,
+			);
+			path = "Pícale";
+			sourceTree = "<group>";
+		};
+		A0CE7FAD1F64EF280049A5EF /* PícaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE7FAE1F64EF280049A5EF /* Pi_caleTests.swift */,
+				A0CE7FB01F64EF280049A5EF /* Info.plist */,
+			);
+			path = "PícaleTests";
+			sourceTree = "<group>";
+		};
+		A0CE7FB81F64EF280049A5EF /* PícaleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE7FB91F64EF280049A5EF /* Pi_caleUITests.swift */,
+				A0CE7FBB1F64EF280049A5EF /* Info.plist */,
+			);
+			path = "PícaleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CE7F951F64EF280049A5EF /* Pícale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CE7FBE1F64EF280049A5EF /* Build configuration list for PBXNativeTarget "Pícale" */;
+			buildPhases = (
+				A0CE7F921F64EF280049A5EF /* Sources */,
+				A0CE7F931F64EF280049A5EF /* Frameworks */,
+				A0CE7F941F64EF280049A5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pícale";
+			productName = "Pícale";
+			productReference = A0CE7F961F64EF280049A5EF /* Pícale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0CE7FA91F64EF280049A5EF /* PícaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CE7FC11F64EF280049A5EF /* Build configuration list for PBXNativeTarget "PícaleTests" */;
+			buildPhases = (
+				A0CE7FA61F64EF280049A5EF /* Sources */,
+				A0CE7FA71F64EF280049A5EF /* Frameworks */,
+				A0CE7FA81F64EF280049A5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CE7FAC1F64EF280049A5EF /* PBXTargetDependency */,
+			);
+			name = "PícaleTests";
+			productName = "PícaleTests";
+			productReference = A0CE7FAA1F64EF280049A5EF /* PícaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0CE7FB41F64EF280049A5EF /* PícaleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CE7FC41F64EF280049A5EF /* Build configuration list for PBXNativeTarget "PícaleUITests" */;
+			buildPhases = (
+				A0CE7FB11F64EF280049A5EF /* Sources */,
+				A0CE7FB21F64EF280049A5EF /* Frameworks */,
+				A0CE7FB31F64EF280049A5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CE7FB71F64EF280049A5EF /* PBXTargetDependency */,
+			);
+			name = "PícaleUITests";
+			productName = "PícaleUITests";
+			productReference = A0CE7FB51F64EF280049A5EF /* PícaleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CE7F8E1F64EF280049A5EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ironchorch;
+				TargetAttributes = {
+					A0CE7F951F64EF280049A5EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RPUTZQX636;
+						ProvisioningStyle = Automatic;
+					};
+					A0CE7FA91F64EF280049A5EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0CE7F951F64EF280049A5EF;
+					};
+					A0CE7FB41F64EF280049A5EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0CE7F951F64EF280049A5EF;
+					};
+				};
+			};
+			buildConfigurationList = A0CE7F911F64EF280049A5EF /* Build configuration list for PBXProject "Pícale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0CE7F8D1F64EF280049A5EF;
+			productRefGroup = A0CE7F971F64EF280049A5EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CE7F951F64EF280049A5EF /* Pícale */,
+				A0CE7FA91F64EF280049A5EF /* PícaleTests */,
+				A0CE7FB41F64EF280049A5EF /* PícaleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CE7F941F64EF280049A5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C7828F1F6D9F2F001B1362 /* Main.storyboard in Resources */,
+				A03C2BF81F65F96A00F9F26F /* SonidoConteo5ms.mp3 in Resources */,
+				A076A7A91F68C3640011F076 /* SonidoPícale.mp3 in Resources */,
+				A08B794E1F69F711002956D8 /* SonidoPicaleFinal.mp3 in Resources */,
+				A08B79521F69FDD7002956D8 /* Assets.xcassets in Resources */,
+				A03C2BFA1F65FF6700F9F26F /* SonidoConteoFinal.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE7FA81F64EF280049A5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE7FB31F64EF280049A5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CE7F921F64EF280049A5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CE7F9C1F64EF280049A5EF /* ViewController.swift in Sources */,
+				A0CE7FC81F65254E0049A5EF /* PicaleButton.swift in Sources */,
+				A0CE7F9A1F64EF280049A5EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE7FA61F64EF280049A5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CE7FAF1F64EF280049A5EF /* Pi_caleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE7FB11F64EF280049A5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CE7FBA1F64EF280049A5EF /* Pi_caleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0CE7FAC1F64EF280049A5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CE7F951F64EF280049A5EF /* Pícale */;
+			targetProxy = A0CE7FAB1F64EF280049A5EF /* PBXContainerItemProxy */;
+		};
+		A0CE7FB71F64EF280049A5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CE7F951F64EF280049A5EF /* Pícale */;
+			targetProxy = A0CE7FB61F64EF280049A5EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0C7828D1F6D9F2F001B1362 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C7828E1F6D9F2F001B1362 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0CE7FBC1F64EF280049A5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0CE7FBD1F64EF280049A5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0CE7FBF1F64EF280049A5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RPUTZQX636;
+				INFOPLIST_FILE = "Pícale/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ironchorch.Picale.Pi-cale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A0CE7FC01F64EF280049A5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RPUTZQX636;
+				INFOPLIST_FILE = "Pícale/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ironchorch.Picale.Pi-cale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A0CE7FC21F64EF280049A5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PícaleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ironchorch.Picale.Pi-caleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pícale.app/Pícale";
+			};
+			name = Debug;
+		};
+		A0CE7FC31F64EF280049A5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PícaleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ironchorch.Picale.Pi-caleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pícale.app/Pícale";
+			};
+			name = Release;
+		};
+		A0CE7FC51F64EF280049A5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "PícaleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ironchorch.Picale.Pi-caleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pícale";
+			};
+			name = Debug;
+		};
+		A0CE7FC61F64EF280049A5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "PícaleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ironchorch.Picale.Pi-caleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pícale";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CE7F911F64EF280049A5EF /* Build configuration list for PBXProject "Pícale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE7FBC1F64EF280049A5EF /* Debug */,
+				A0CE7FBD1F64EF280049A5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CE7FBE1F64EF280049A5EF /* Build configuration list for PBXNativeTarget "Pícale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE7FBF1F64EF280049A5EF /* Debug */,
+				A0CE7FC01F64EF280049A5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CE7FC11F64EF280049A5EF /* Build configuration list for PBXNativeTarget "PícaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE7FC21F64EF280049A5EF /* Debug */,
+				A0CE7FC31F64EF280049A5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CE7FC41F64EF280049A5EF /* Build configuration list for PBXNativeTarget "PícaleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE7FC51F64EF280049A5EF /* Debug */,
+				A0CE7FC61F64EF280049A5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0CE7F8E1F64EF280049A5EF /* Project object */;
+}
